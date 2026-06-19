@@ -1,9 +1,9 @@
 # web-team-project
 이 프로젝트는 HTML, CSS, JavaScript를 활용하여 웹 페이지를 제작하는 팀 협업 실습 프로젝트입니다.
 
-*턴온피트니스 PT 광화문점 홈페이지
+*턴온피트니스 PT 광화문점 홈페이지 https://naver.me/5apTOiky
 
-Nav 구성: 
+패이지 구성: 
 1. 메인: 브랜드 소개    - 초이
 2. 프로그램             - 정우
 3. 시설 안내            - 정우
