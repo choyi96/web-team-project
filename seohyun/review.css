@@ -16,7 +16,8 @@ body{
     text-align: center;
 }
 .guide h1{
-    font-size: 36px;
+    font-size: 40px;
+    color: #091413;
 }
 .explain{
     font-weight: bold;
