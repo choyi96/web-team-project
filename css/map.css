@@ -1,0 +1,18 @@
+.map-main{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+}
+small{
+    color: gray;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.map-gwanghwamun, .map-mapo{
+    padding: 15px 15px;
+    border-radius: 25px;
+    background-color: #091413;
+    color: white;
+}
