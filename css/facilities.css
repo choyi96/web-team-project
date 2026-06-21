@@ -148,7 +148,7 @@
     font-weight: 800;
     color: #285A48;
     margin-bottom: 8px;
-    font-family: 'Kanit', sans-serif; /* 숫자가 이쁘게 나오는 구글 폰트 연동 */
+    font-family: 'Kanit', sans-serif;
 }
 
 .feature-label {
@@ -160,7 +160,7 @@
 
 
 @media (max-width: 900px) {
-    /* 3열 카드를 2열 혹은 1열로 변경 */
+    
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
     }
