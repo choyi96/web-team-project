@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>웹 개발 학습 페이지</title>
+    <title>턴온피트니스 - 오시는길</title>
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/map.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,24 +24,72 @@
             <li><a href="#">시설 안내</a></li>
             <li><a href="/seohyun/coach.html">코치 소개</a></li>
             <li><a href="/seohyun/review.html">고객 리뷰</a></li>
-            <li><a href="map.html">오시는 길</a></li>
+            <li><a href="map.html">오시는길</a></li>
         </ul>
 
         <div class="nav-right"></div>
     </nav>
-
-    <main class="map-main">
-        <div class="map-gwanghwamun">
-            <h2>턴온피트니스 PT 광화문점 <small>서울 종로구 종로5길 13 2층</small></h2>
-            <iframe src="https://naver.me/5xgOU71o" width="1000px" height="500" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-
-         <div class="map-mapo">
-            <h2>턴온피트니스 PT스튜디오 마포공덕점 <small>서울 마포구 토정로37길 41 3층</small></h2>
-            <iframe src="https://naver.me/FUiyfl95" width="1000px" height="500" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-    </main>
-
+    
+    <main class="location-main">
+    <h1 class="page-title">오시는길</h1>
+    <p class="page-subtitle">턴온피트니스 지점을 안내해 드립니다.</p>
+ 
+    <!-- 광화문점 -->
+    <section class="location-card">
+      <div class="map-wrap">
+        <img src="image/gwanghwamun.png" alt="광화문지점 지도 이미지">
+      </div>
+      <div class="info-wrap">
+        <h2 class="branch-name">턴온피트니스 PT 광화문점</h2>
+        <table class="info-table">
+          <tr>
+            <th>주소</th>
+            <td>서울특별시 종로구 광화문 (상세 주소 입력)</td>
+          </tr>
+          <tr>
+            <th>이용시간</th>
+            <td>
+              평일&nbsp;&nbsp;07:00 ~ 22:00<br>
+              토요일&nbsp;&nbsp;10:00 ~ 13:00<br>
+              일요일/공휴일&nbsp;&nbsp;휴무
+            </td>
+          </tr>
+          <tr>
+            <th>전화번호</th>
+            <td>0507-1380-6792</td>
+          </tr>
+        </table>
+        <a class="map-link" href="https://naver.me/FVFkEW6y" target="_blank">네이버 지도에서 보기</a>
+      </div>
+    </section>
+ 
+    <!-- 마포공덕점 -->
+    <section class="location-card">
+      <div class="map-wrap">
+        <img src="image/mapo.png" alt="마포공덕지점 지도 이미지">
+      </div>
+      <div class="info-wrap">
+        <h2 class="branch-name">턴온피트니스 PT스튜디오 마포공덕점</h2>
+        <table class="info-table">
+          <tr>
+            <th>주소</th>
+            <td>서울특별시 마포구 공덕동 (상세 주소 입력)</td>
+          </tr>
+          <tr>
+            <th>이용시간</th>
+            <td>
+              매일&nbsp;&nbsp;24시간 영업
+            </td>
+          </tr>
+          <tr>
+            <th>전화번호</th>
+            <td>0507-1411-7025</td>
+          </tr>
+        </table>
+        <a class="map-link" href="https://naver.me/5Hy2betp" target="_blank">네이버 지도에서 보기</a>
+      </div>
+    </section>
+  </main>
     <footer>
         <p class="footer-left">
             턴온피트니스 PT 광화문점 | 대표자: 전병곤 | 연락처: 0507-1380-6792 <br>
