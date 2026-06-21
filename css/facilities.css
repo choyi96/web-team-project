@@ -106,6 +106,7 @@
     background-size: cover;
     background-position: center;
     background-color: #dbe5e1; 
+}
 
 .weight-zone { background-image: url('../image/images.jpg'); }
 .cardio-zone { background-image: url('../image/유산소.jpg'); }
