@@ -108,9 +108,9 @@
     background-color: #dbe5e1; 
 }
 
-.weight-zone { background-image: url('../image/images.jpg'); }
-.cardio-zone { background-image: url('../image/유산소.jpg'); }
-.shower-room { background-image: url('../image/샤워장.jpg'); }
+.weight-zone { background-image: url('/image/weight.jpg'); }
+.cardio-zone { background-image: url('/image/cardio.jpg'); }
+.shower-room { background-image: url('/image/shower.jpg'); }
 
 .card-body {
     padding: 20px;
