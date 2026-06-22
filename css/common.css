@@ -22,16 +22,16 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 40px;
+    flex-wrap: wrap;
 }
 .nav-left, .nav-right{
-    flex: 1;
+    flex: 0 0 auto;
 } 
 .nav-center{
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 60px;
-    margin-left: 80px;
+    gap: 30px 40px;
     padding: 0;
 }
 nav a{
@@ -49,8 +49,32 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin: 0;
     background: linear-gradient(to top, #091413, #285A48, #408A71);
     color: white;
     font-size: 12px;
+}
+.footer-left{
+    margin-left: 40px;
+    text-shadow: 2px 2px 4px black;
+    text-align: left;
+}
+.footer-right ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px black;
+    list-style: none;
+}
+@media screen and (max-width: 699px) {
+.location-card {
+    flex-direction: column;
+}
+.map-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.info-wrap {
+    width: 100%;
+}
 }
